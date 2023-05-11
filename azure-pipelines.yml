@@ -44,6 +44,7 @@ steps:
     targetFolder: '$(Build.ArtifactStagingDirectory)'    
 
 - task: PublishBuildArtifacts@1    
-  displayName: 'Publish Artifact: drop'
+  displayName: 'Publish Artifact: WebApp'
   inputs:
     PathtoPublish: '$(build.artifactstagingdirectory)'
+
